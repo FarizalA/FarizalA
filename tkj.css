@@ -221,7 +221,7 @@ font-weight: 400;
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
     .custom-shape-divider-top-1667518685 svg {
-        width: calc(300% + 1.3px);
+        width: calc(100% + 1.3px);
         height: 149px;
     }
     .custom-shape-divider-top-1667531377 svg {
@@ -233,7 +233,7 @@ font-weight: 400;
 /** For mobile devices **/
 @media (max-width: 767px) {
     .custom-shape-divider-top-1667518685 svg {
-        width: calc(300% + 1.3px);
+        width: calc(100% + 1.3px);
         height: 102px;
         margin-top: 0;
     }
