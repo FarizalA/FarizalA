@@ -424,7 +424,7 @@ h4 {
 font-family: 'Ubuntu', sans-serif;
 }
 
-#courses {
+.courses {
   width: 100%;
   background-color: #5DA7DB;
   height: 1100px;
