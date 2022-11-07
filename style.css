@@ -489,7 +489,7 @@ font-family: 'Ubuntu', sans-serif;
 #home {
  display: flex;
   justify-content: center;
-  
+  backround-color: #ffffff;
 
 }
 .content {
@@ -499,30 +499,8 @@ font-family: 'Ubuntu', sans-serif;
   
 }
 
-/*.courses {
-  justify-content: center;
-  text-align: center;
-}
-/*
-.kolom {
-  float: right;
-  margin-left: 120px;
-}
 
-.smt {
-  width: 100%;
-  text-align: center;
-}
 
-.smt1 a,.smt2 a,.smt3 a,.smt4 a,.smt5 a {
-    padding: 15px 500px 15px 500px; 
-    font-size: 25px; 
-}
-.wrapper {
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-}*/
 
 
 .custom-shape-divider-top-1667434983 svg {
