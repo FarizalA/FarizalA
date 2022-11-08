@@ -22,7 +22,11 @@
     color: #364f6b;
     text-decoration: none;
 }
-
+.logo img {
+  width:70px;
+  margin-left: 5px;
+  float: left;
+}
 .menu {
     float: right;
     margin-right: 20px;
