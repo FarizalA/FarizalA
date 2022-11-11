@@ -78,7 +78,9 @@ h1 {
   font-family: 'ubuntu',Sans-Serif;
 }
 
-
+.svg {
+  margin-top: -4px;
+}
 
 .conten {
   text-align: center;
