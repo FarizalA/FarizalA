@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+ padding: 0;
+  margin: 0;
+}
+#navbar {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  transition: top 0.3s;
+  
+}
+
+#navbar a {
+  float: left;
+  display: ;
+  color: #FAF4B7;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  
+}
+
+#navbar a:hover {
+  background: #9ADCFF;
+  color: black;
+  
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: pink;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 15px;
+  cursor: pointer;
+    background: transparent;
+ border: none;
+  
+  
+  
+}
+
+.openbtn:hover {
+  background-color: pink;
+}
+
+#main {
+  transition: margin-left .5s;
+  
+}
+
+
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='250' height='800' preserveAspectRatio='none' viewBox='0 0 250 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1126%26quot%3b)' fill='none'%3e%3crect width='250' height='800' x='0' y='0' fill='url(%23SvgjsLinearGradient1127)'%3e%3c/rect%3e%3cpath d='M250 0L215.74 0L250 145.22z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M215.74 0L250 145.22L250 363.43L214.53 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M214.53 0L250 363.43L250 386.98L89.19 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M89.19 0L250 386.98L250 617.01L27.57 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 800L83.14 800L0 566.81z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 566.81L83.14 800L173.64 800L0 512.31z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 512.31L173.64 800L197.36999999999998 800L0 464.00999999999993z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 464.01L197.36999999999998 800L213.35999999999999 800L0 364.09z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1126'%3e%3crect width='250' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1127'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  transition: all .5s ease;
+  
+}
+.sidebar header {
+  font-size: 22px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #063146;
+  user-select: none;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  transition: .4s;
+}
+ul li:hover a{
+  padding-left: 50px;
+}
+.sidebar ul a i{
+  margin-right: 16px;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  background: #042331;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label #btn{
+  left: 250px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .5s;
+}
+label #cancel{
+  z-index: 1111;
+  left: 195px;
+  top: 17px;
+  font-size: 30px;
+  color: #0a5275;
+  padding: 4px 9px;
+  transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+  left: -250px;
+}
+#check:checked ~ label #btn{
+  left: 40px;
+  opacity: 1;
+  pointer-events: auto;
+}
+#check:checked ~ label #cancel{
+  left: -195px;
+}
+#check:checked ~ section{
+  margin-left: 0px;
+}
+
+.isi {
+  width: 100%;
+  height: 370px;
+background-color: #273036;
+margin-bottom: -2px;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='450' height='300' preserveAspectRatio='none' viewBox='0 0 450 300'%3e%3cg mask='url(%26quot%3b%23SvgjsMask8998%26quot%3b)' fill='none'%3e%3crect width='178.2' height='178.2' clip-path='url(%26quot%3b%23SvgjsClipPath8999%26quot%3b)' x='43.81' y='39.77' fill='url(%23SvgjsPattern9000)' transform='rotate(224.87%2c 132.91%2c 128.87)'%3e%3c/rect%3e%3crect width='192' height='192' clip-path='url(%26quot%3b%23SvgjsClipPath9001%26quot%3b)' x='341.24' y='40.85' fill='url(%23SvgjsPattern9002)' transform='rotate(78.42%2c 437.24%2c 136.85)'%3e%3c/rect%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath9003%26quot%3b)' x='391.45' y='17.67' fill='url(%23SvgjsPattern9004)' transform='rotate(5.42%2c 421.45%2c 47.67)'%3e%3c/rect%3e%3cpath d='M335.98 269.13 L379.64000000000004 283.81L381.3563051933393 252.92369480666076z' fill='rgba(231%2c 54%2c 53%2c 0.28)'%3e%3c/path%3e%3crect width='180.84' height='180.84' clip-path='url(%26quot%3b%23SvgjsClipPath9005%26quot%3b)' x='-75.26' y='25.65' fill='url(%23SvgjsPattern9006)' transform='rotate(281.29%2c 15.16%2c 116.07)'%3e%3c/rect%3e%3cpath d='M317.53 52.47a5.6 5.6 0 1 0 10.9-2.58 5.6 5.6 0 1 0-10.9 2.58zM333.1 48.79a5.6 5.6 0 1 0 10.9-2.59 5.6 5.6 0 1 0-10.9 2.59zM348.67 45.1a5.6 5.6 0 1 0 10.9-2.59 5.6 5.6 0 1 0-10.9 2.59zM364.24 41.41a5.6 5.6 0 1 0 10.9-2.58 5.6 5.6 0 1 0-10.9 2.58z' fill='rgba(231%2c 54%2c 53%2c 0.28)'%3e%3c/path%3e%3cpath d='M339.98 220.56 L361.89 214.43L339.39334860228485 205.95334860228482z' stroke='rgba(3%2c 123%2c 11%2c 0.36)' stroke-width='2.32'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask8998'%3e%3crect width='450' height='300' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='8.1' height='8.1' patternUnits='userSpaceOnUse' id='SvgjsPattern9000'%3e%3cpath d='M4.05 1L4.05 7.1M1 4.05L7.1 4.05' stroke='rgba(231%2c 54%2c 53%2c 0.28)' fill='none' stroke-width='2.62'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath8999'%3e%3ccircle r='44.55' cx='132.91' cy='128.87'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern9002'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(231%2c 54%2c 53%2c 0.28)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath9001'%3e%3ccircle r='48' cx='437.24' cy='136.85'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern9004'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='rgba(3%2c 123%2c 11%2c 0.36)' fill='none' stroke-width='1.4'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath9003'%3e%3ccircle r='15' cx='421.45' cy='47.67'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='8.22' height='8.22' patternUnits='userSpaceOnUse' id='SvgjsPattern9006'%3e%3cpath d='M0 8.22L4.11 0L8.22 8.22' stroke='rgba(231%2c 54%2c 53%2c 0.28)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath9005'%3e%3ccircle r='45.21' cx='15.16' cy='116.07'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+.isi h1 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top:30%;
+ font-weight: bold;
+ color: #FFFBC1;
+ font-size: 20px;
+}
+.pengertian {
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+ padding-bottom: 60px;
+}
+
+
+.peran {
+  margin-top: -10px;
+   width: 100%;
+  padding-bottom: 20px;
+ background-color: #2B4865;
+ text-align: center;
+ justify-content: center;
+ color: #FFFBC1;
+}
+.peran h3{
+  padding-top: 100px;
+}
+
+.hp {
+  width:90%;
+  justify-content: center;
+  text-align: left;
+  
+  margin-left: 10%;
+}
+
+.profesi {
+  margin-top: 50px;
+   width: 100%;
+   height: 300px;
+   text-align: center;
+   justify-content: center;
+   
+   padding-top: 40px;
+}
+.ap {
+  width: 100%;
+ 
+}
+.ap img {
+  width: 100%;
+}
+
+.ssvg svg {
+  margin-top: -19px;
+position: absolute;
+
+}
+
+.sponsor {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+}
+
+.sponsor img{
+  margin-top: 40px;
+  width:50px;
+ 
+}
