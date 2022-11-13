@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding:0;
+  margin: 0;
+
+background-color: #222831;
+}
+.container {
+  width: 100%;
+ margin-bottom: 59px;
+
+}
+.gbr {
+  width: 100%;
+display: flex;
+padding-top: 10px;
+
+}
+.gbr h1{
+  margin-left: 31%;
+  margin-top: 80px;
+  font-family: 'Oregano',Sans-Serif;
+  font-size: 40px;
+  color: #ffffff;
+  z-index: -1;
+}
+.gbr img {
+ position: absolute;
+ margin-left: 55%;
+  width: 160px;
+float:right;
+display:block;
+z-index: -1;
+  
+}
+.hiragana {
+  width: 100%;
+  
+}
+
+.h {
+  width: 100%;
+  margin-top: -55px;
+  z-index: 1;
+  text-align: center;
+}
+.h img{
+  width: 388px;
+ text-align: container;
+}
+
+.container p {
+  color: #ffffff;
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 70px;
+  font-family: 'Oregano',Sans-Serif;
+}
+
+
+
+
+
+.pendahuluan {
+  width: 370px;
+  margin-top: 50px;
+  color: #EEEEEE;
+  font-family: 'ubuntu',Sans-Serif;
+  font-size: 15px;
+text-align: center
+justify-content: center;
+line-height: 25px;
+background-color: #393E46;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 10px;
+}
+
+.pendahuluan p, h3 {
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  padding-left: 30px;
+ font-weight: 300;
+}
+.pendahuluan li{
+  width: 300px;
+  margin-left: 80px;
+}
+
+
+.contoh {
+  width: 100%;
+  margin-top: 60px;
+ text-align: center;
+ justify-content: center;
+}
+table {
+  font-family: 'ubuntu', Sans-Serif;
+  border-collapse: collapse;
+  width: 85%;
+  margin-right: 7%;
+  margin-left: 7%;
+ text-align: center;
+ justify-content: center;
+ color: #EEEEEE;
+}
+
+
+th {
+  background-color: #dddddd;
+  color: black;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.catatan{
+  color: #FFD369;
+  width: 90%;
+  height: 300px
+  text-align: left;
+  margin-top: 30px;
+margin-bottom: 20px;
+  
+}
+
+.catatan p{
+  padding-left: 50px;
+   font-family: 'ubuntu', Sans-Serif;
+  line-height: 33px
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.sasuke h3{
+  font-size: 30px;
+  color: #eeeeee;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-family: 'Oregano',Sans-Serif;
+
+  
+}
+.sasuke {
+  width: 100%;
+}
+
+.sasuke img{
+  float: right;
+}
+
+.petir{
+  position:absolute;
+  margin-top: -185px;
+  opacity: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px){
+  .pendahuluan p, h3 {
+  width: 100%;}
+  .pendahuluan li{
+ 
+  margin-left: 40%;
+}
+  
+  
+  /*body{
+    display: none;
+  } 
+ .pendahuluan {
+  width: 600px;
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: 'ubuntu',Sans-Serif;
+  font-size: 15px;
+text-align: center
+justify-content: center;
+padding-left: 53px;
+}
+  */.pendahuluan p, h3 {
+  width: 100%;
+  
+}/*
+.pendahuluan li{
+  width: 100%;
+  text-align: center;
+}
+contoh {
+  width: 100%;
+  margin-top: 60px;
+ text-align: center;
+}
+table {
+  margin-left: 30%;
+  width: 388px;
+}
+.h {
+  width: 388px;
+  margin-top: -55px;
+  z-index: 1;
+  text-align: center;
+}
+.h img{
+  width: 100%;
+ text-align: container;
+}
+}

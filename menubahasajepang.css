@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gambar {
+  width: 100%;
+ position: relative;
+ background-color: #1B2430;
+ padding-bottom: 50px;
+}
+.gambar img {
+  width: 100%;
+}
+.gambar h1 {
+ position: absolute;
+  text-align: center;
+  justify-content: center;
+  margin-top: -55px;
+  font-family: 'Oregano', cursive;
+  margin-left: 20px;
+  color: #916BBF;
+  border-radius: 25px ;
+  background-color: #ffffff ;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.container {
+  width: 98.7%;
+ text-align: center;
+  height: 1000px;
+  background-color: #393E46;
+  border-radius: 30px 30px 0 0;
+  border: 2px solid #EB6440;
+  margin-top: -30px;
+  position: absolute;
+  padding-top: 60px;
+  
+}
+.narto img{
+  width: 100px;
+  position: absolute;
+  margin-top: -40px;
+  float: right;
+  margin-left: 85px;
+  margin-right: 0;
+}
+
+
+
+.hiragana button{
+  width: 350px;
+  height: 50px;
+  background: rgb(128,72,156);
+background: linear-gradient(140deg, rgba(128,72,156,1) 57%, rgba(179,104,216,1) 74%, rgba(223,158,255,1) 86%);
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 2px solid #FFE9B1;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Oregano',font-family;
+ cursor: pointer;
+  color: #FFE9B1
+  
+  
+  
+}
+.katakana button{
+  width: 350px;
+  height: 50px;
+  background: rgb(13,76,146);
+background: linear-gradient(140deg, rgba(13,76,146,1) 58%, rgba(33,132,242,1) 75%, rgba(171,211,255,1) 95%);
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 2px solid #FFE9B1;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Oregano',font-family;
+  font-weight: ;
+  color: #ffffff;
+}
+
+.gbr {
+  width: 100%;
+  
+ position: absolute;
+ margin-top: -50px;
+
+}
+
+.gbr img {
+  
+  width: 200px;
+  text-align: center;
+ 
+}
