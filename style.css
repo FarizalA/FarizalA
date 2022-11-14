@@ -212,7 +212,7 @@ h2 {
 
 .smt {
   width: 95%;
-  
+  padding-top: 20px;
   align-items: center;
  margin-top: 10px;
  
@@ -444,10 +444,12 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .custom-shape-divider-top-1667434983 svg {
-    position: relative;
+    position: absolute;
     display: block;
     width: calc(100% + 1.3px);
     height: 70px;
+    margin-top: -6px;
+    z-index:1;
 }
 
 .custom-shape-divider-top-1667434983 .shape-fill {
@@ -507,30 +509,6 @@ font-family: 'Ubuntu', sans-serif;
   
 }
 
-/*.courses {
-  justify-content: center;
-  text-align: center;
-}
-/*
-.kolom {
-  float: right;
-  margin-left: 120px;
-}
-
-.smt {
-  width: 100%;
-  text-align: center;
-}
-
-.smt1 a,.smt2 a,.smt3 a,.smt4 a,.smt5 a {
-    padding: 15px 500px 15px 500px; 
-    font-size: 25px; 
-}
-.wrapper {
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-}*/
 
 
 .custom-shape-divider-top-1667434983 svg {
