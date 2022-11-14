@@ -178,52 +178,67 @@ margin-bottom: 20px;
 
 
 @media screen and (min-width: 600px){
+    .container {
+    width: 100%;
+    
+    
+  }
+ .gbr h1{
+   font-size: 76px;
+   position: absolute;
+ } 
+  .gbr{
+    width:100%;
+    margin-bottom: 200px;
+  }
+  .gbr img{
+    width: 300Px;
+  }
+  
+  .hiragana {
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .h{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .h img{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  .petir{
+    display: none;
+  }
+  .pendahuluan{
+    width: 100%;
+    height: 900px;
+  }
   .pendahuluan p, h3 {
-  width: 100%;}
+  width: 60%;
+  line-height: 40px;
+    margin-left: 15%;
+    font-size: 35px;
+  }
   .pendahuluan li{
- 
+    font-size: 30px;
   margin-left: 40%;
 }
+.catatan {
+  font-size: 35px;
+}
+.sasuke {
+  display: none;
+}
+.sasuke h3 {
+  display: none;
+}
+
+
   
-  
-  /*body{
-    display: none;
-  } 
- .pendahuluan {
-  width: 600px;
-  margin-top: 50px;
-  color: #ffffff;
-  font-family: 'ubuntu',Sans-Serif;
-  font-size: 15px;
-text-align: center
-justify-content: center;
-padding-left: 53px;
-}
-  */.pendahuluan p, h3 {
-  width: 100%;
-  
-}/*
-.pendahuluan li{
-  width: 100%;
-  text-align: center;
-}
-contoh {
-  width: 100%;
-  margin-top: 60px;
- text-align: center;
-}
-table {
-  margin-left: 30%;
-  width: 388px;
-}
-.h {
-  width: 388px;
-  margin-top: -55px;
-  z-index: 1;
-  text-align: center;
-}
-.h img{
-  width: 100%;
- text-align: container;
-}
-}
