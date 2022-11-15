@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding:0;
+  margin: 0;
+background-color: #263D60;
+}
+
+
+.hiragana {
+  width: 100%;
+  
+}
+
+.h {
+  width: 100%;
+  margin-top: 30px;
+  z-index: 1;
+  text-align: center;
+}
+.h img{
+  width: 350px;
+ text-align: center;
+}
+
+.pendahuluan {
+  width: 370px;
+  margin-top: 50px;
+  color: #EEEEEE;
+  font-family: 'ubuntu',Sans-Serif;
+  font-size: 15px;
+text-align: center
+justify-content: center;
+line-height: 25px;
+background-color: #3F5C84;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 10px;
+}
+
+.pendahuluan p, h3 {
+  width: 300px;
+ 
+  padding-left: 30px;
+ font-weight: 300;
+}
+table {
+  font-family: 'ubuntu', Sans-Serif;
+  border-collapse: collapse;
+  width: 85%;
+  margin-right: 7%;
+  margin-left: 7%;
+ text-align: center;
+ justify-content: center;
+ color: #EEEEEE;
+ margin-top: 10px;
+}
+
+
+th {
+  background-color: #dddddd;
+  color: black;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.catatan{
+  color: #FFD369;
+  width: 90%;
+  height: 300px
+  text-align: left;
+  margin-top: 30px;
+margin-bottom: 20px;
+  word-spacing: 6px;
+}
+
+.catatan p{
+  padding-left: 50px;
+   font-family: 'ubuntu', Sans-Serif;
+  line-height: 33px
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+@media screen and (min-width: 600px){
+  .pendahuluan{
+    width: 100%;
+    height: ;
+  }
+  .pendahuluan p, h3 {
+  width: 60%;
+  line-height: 40px;
+    margin-left: 15%;
+    font-size: 30px;
+  }
+  
+
+}
