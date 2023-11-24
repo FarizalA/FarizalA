@@ -522,6 +522,7 @@ justify-content: center;
   
   .menu {
     display: none;
+ overflow: hidden;
   }
   .content {
       width: 100%;
