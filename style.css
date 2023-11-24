@@ -22,6 +22,7 @@
     font-family: courier;
     color: #364f6b;
     text-decoration: none;
+ overflow: hidden;
 }
 
 .menu {
@@ -178,6 +179,7 @@ a.tbl-pink:hover {
 }
 .gbr img {
   width:100%;
+ overflow: hidden;
 }
 
 
@@ -193,6 +195,7 @@ a.tbl-pink:hover {
     font-weight: bold;
     font-family: 'comic sans ms';
     color: #364f6b;   
+ overflow: hidden;
 }
 p {
   
