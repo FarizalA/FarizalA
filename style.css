@@ -11,6 +11,7 @@
   width: 100%;
   margin-top: 2px;
   position: relative;
+ overflow: hidden;
 }
 
 .logo a {
@@ -173,7 +174,7 @@ a.tbl-pink:hover {
 }
 
 .gbr {
- 
+ overflow: hidden;
 }
 .gbr img {
   width:100%;
@@ -184,6 +185,7 @@ a.tbl-pink:hover {
 .kolom {
     margin-top: 50px;
     margin-bottom: 15px;
+ overflow: hidden;
 }
 
 .kolom .deskripsi {
