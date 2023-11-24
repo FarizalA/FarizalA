@@ -344,6 +344,7 @@ justify-content: center;
 .wrapperr {
  margin-top: 50px;
  margin-left: 10px;
+ overflow: hidden;
 }
 
 .wrapperr .buttonn{
@@ -504,6 +505,7 @@ justify-content: center;
  
  .gbr img {
    width: 600px;
+ overflow: hidden;
  }
  h4 {
    font-size: 25px;
@@ -529,6 +531,7 @@ justify-content: center;
         margin-left:40px ;
         display: flex;
         justify-content: center;
+ overflow: hidden;
     }
     
   .deskripsi {
@@ -552,7 +555,7 @@ justify-content: center;
   .kolom {
     margin-top: 1px;
     text-align: center;
-    
+     overflow: hidden;
   }
     
   section {
